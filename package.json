@@ -1,0 +1,24 @@
+{
+  "name": "deepshare-story-server",
+  "version": "1.0.0",
+  "description": "DeepShare IP Registration Server for Story Protocol",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@story-protocol/core-sdk": "^1.4.2",
+    "viem": "^2.8.12",
+    "express": "^4.18.2",
+    "dotenv": "^16.4.7",
+    "axios": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
